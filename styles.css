@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  color: white; /* default text color */
+  padding: 20px;
+}
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('fonts/myfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'MyCustomFont', Arial, sans-serif;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+}
+
+p {
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+img {
+  border-radius: 100px;
+  margin: 20px 0;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.1); /* zoom in */
+  box-shadow: 0px 8px 20px rgb(82, 82, 151);
+}
+
+audio {
+  width: 300px; 
+}
+
+
+
+
+
+
